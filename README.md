@@ -122,7 +122,7 @@ note:
 ## Remote Push Status
 
 status:
-  remote_pushed
+  remote_pushed_final_sync_pending_commit
 
 remote_repo:
   SeungeFlow/9Dot0
@@ -133,9 +133,9 @@ remote_ssh:
 branch:
   main
 
-pushed_head:
-  short: c17eb97
-  hash: c17eb97cef47fae88c3bbafe675cad70a7536340
+verified_remote_head_before_final_sync:
+  short: 032a5f6
+  hash: 032a5f644b55e45ec067778ad723d653e640e0d0
 
 force_push:
   no
@@ -144,4 +144,5 @@ visibility:
   private
 
 note:
-  Initial requested owner was duksansj, but the authenticated GitHub account created and pushed to SeungeFlow/9Dot0. This repository now treats SeungeFlow/9Dot0 as the canonical remote.
+  Before this final sync commit, Repo.9Dot0 local main and origin/main were verified to match the head above.
+  The final sync commit itself creates a new pushed head, which is recorded in the pass report rather than embedded as its own hash.
