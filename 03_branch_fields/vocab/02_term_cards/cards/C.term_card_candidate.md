@@ -173,6 +173,49 @@ This card does not claim:
 - final branch.history interpretation
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 79
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: C = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+C | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 100 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | C = (m,t,p,?)
+C | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 156 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | C축:
+C | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 309 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Lane C = music_language × Event_Context / Cross Matrix
+C | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 345 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | C = t × p
+C | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 347 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | C : 구조
+C | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 355 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | Δ → t → p → C → Δ
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 185 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Core는 하나의 C 내부에서 form들이 어떻게 논리적 매트릭스를 이루는지 정의한다.
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 187 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Path는 C와 C, form과 form, meta와 meta, branch와 branch, Event와 Context가 어떻게 관계를 맺고 C+1을 여는지 정의한다.
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 187 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Path는 C와 C, form과 form, meta와 meta, branch와 branch, Event와 Context가 어떻게 관계를 맺고 C+1을 여는지 정의한다.
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 191 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | C 내부의 구조
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 194 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | C와 C 사이의 관계경로
+C | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 194 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | C와 C 사이의 관계경로
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize C.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
