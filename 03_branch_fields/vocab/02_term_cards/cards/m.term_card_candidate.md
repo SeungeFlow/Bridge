@@ -169,6 +169,49 @@ This card does not claim:
 - final history interpretation
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 81
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: m = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+m | core_token_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | README.md | 15 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/README.md | - m: existent / object / relation-bearing unit
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 100 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | C = (m,t,p,?)
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 104 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | m = 숫자로 표시 가능한 모든 관측대상 + 데이터값을 가진 모든 상태
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 116 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | 무엇을 m으로 볼 것인가?
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 205 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | S₃(M, m | U, A, P_m)
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 208 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | FieldBoundaryᵢ(M, m, P_m),
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 209 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Coord_A(m - ㆍ),
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 210 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | EscapeCondition(m, FieldBoundaryᵢ, P_m)
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 223 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | S₄(m1, m2, m | U)
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 226 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | COG = center(m1, m2, m),
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 231 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | next = repeat_9dot0(m2, m),
+m | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 397 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | 구조해석 = 관측기준 ?를 세우고, m, t, p 각각에 의미를 부여하여 특정 구조를 읽을 수 있는 상태로 만드는 작업
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize m.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
