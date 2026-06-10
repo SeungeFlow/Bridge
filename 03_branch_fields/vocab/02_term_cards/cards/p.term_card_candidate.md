@@ -208,6 +208,49 @@ This card does not claim:
 - final history interpretation
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 85
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: p = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+p | core_token_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | README.md | 17 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/README.md | - p: place / position / field
+p | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 100 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | C = (m,t,p,?)
+p | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 108 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | p = 놓인 자리 + 현시점 position + field coordinate
+p | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 247 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | dot = 현시점 + 정중심평형기준점 + p(t|?)로 고정되는 자리
+p | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 397 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | 구조해석 = 관측기준 ?를 세우고, m, t, p 각각에 의미를 부여하여 특정 구조를 읽을 수 있는 상태로 만드는 작업
+p | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 345 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | C = t × p
+p | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 349 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | p : 위치
+p | core_token_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 355 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | Δ → t → p → C → Δ
+p | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 222 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | C = t p
+p | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 242 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | 여기서 `p`는 단순 위치가 아니다.
+p | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 245 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | p =
+p | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 267 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | C = (m, t, p, ?)
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize p.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
