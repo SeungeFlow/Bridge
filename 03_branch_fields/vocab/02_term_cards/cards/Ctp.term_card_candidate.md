@@ -220,6 +220,41 @@ This card does not claim:
 - final branch.history interpretation
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 93
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: Ctp = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+Ctp | core_token_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 24 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | - Ctp structure-operation reading
+Ctp | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 217 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | ## 6. Ctp
+Ctp | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 219 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Ctp는 SeungeFlow의 중심 구조연산식 중 하나다.
+Ctp | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 525 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | 관계, 존재, 장에서 시작하고, Ctp, Core, Path, 9dot0, 역발상, Seed.Base, Active.Schema, runtime output을 통해 작동한다.
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize Ctp.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
