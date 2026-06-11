@@ -232,6 +232,44 @@ This card does not claim:
 - final branch.sohosa source-memory mapping
 - final branch.history source-memory mapping
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 101
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: Seed.Base = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 22 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Seed.Base
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 83 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | DB / source memory / Seed.Base
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 109 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | ## 3. Seed.Base와 Active.Schema
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 111 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | SeungeFlow는 Seed.Base와 Active.Schema를 분리한다.
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 114 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Seed.Base =
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 121 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | Seed.Base는 원천장을 보존한다.
+Seed.Base | structural_trigger_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 525 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | 관계, 존재, 장에서 시작하고, Ctp, Core, Path, 9dot0, 역발상, Seed.Base, Active.Schema, runtime output을 통해 작동한다.
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize Seed.Base.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
