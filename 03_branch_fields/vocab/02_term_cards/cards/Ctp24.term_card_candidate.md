@@ -196,6 +196,49 @@ This card does not claim:
 - final branch.history interpretation
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 95
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: Ctp24 = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 5 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 데이터값으로 표기 가능한 field를 `C=(m,t,p,?)`로 분해하고, `Ctp24`로 **실체 / guard / field sample / 보류 / noise**를 분류하며, `S₁~S₄` 구조연산식으로 `dot`, `diff`, `orbit`, `COG`, `9dot0`를 해석하는 **AI 인지 가능 구조원리 운영체계**이다.
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 7 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 모든 입력을 곧바로 해석하지 않는다. 먼저 `source identity`를 고정하고, field를 병합하지 않으며, 입력을 `C=(m,t,p,?)`로 분해한 뒤 `Ctp24`로 필터링한다. 그 다음 연결 가능한 것, 보류해야 할 것, guard로 막아야 할 것, noise로 분리해야 할 것을 함께 기록한다.
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 10 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Y_Branch is a source-aware, Ctp24-filtered, guard-driven
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 38 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Ctp24로 필터링하고,
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 48 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | → Ctp24
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 127 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | ## 5. Ctp24 Matrix Filter
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 129 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Ctp24`는 `Y_Branch`의 1차 구조필터이다.
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 138 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Ctp24 Reduced Matrix =
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 165 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Ctp24`는 새 입력을 다음으로 분류한다.
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 451 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | source identity와 Ctp24를 먼저 읽는다.
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 462 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Ctp24로 노이즈와 실체를 분리하고,
+Ctp24 | core_token_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 157 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | 이곳에는 Ctp24 작업, ComplexTest, Event, Context, BackData, outputs, code, JSON, YAML, pseudocode 등이 놓일 수 있다.
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize Ctp24.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
