@@ -227,6 +227,45 @@ This card does not claim:
 - final branch.sohosa source mapping
 - final branch.history source mapping
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: VARIANT_REVIEWED_CANDIDATE_ENRICHED
+anchor_source: PASS109 variant-aware anchor review report
+anchor_update_pass: 111
+final_definition: false
+
+## variant-aware match basis
+
+PASS75 review status: Raw URL = variant matched
+PASS109 review basis: accept_candidate rows only
+variant status allowed here: VALID_COMPONENT
+
+## reviewed anchor rows
+
+| card | query_term | row_term | row_status | variant_status | accept_for_card_update | repo | branch | commit | path | line_no | raw_url | reason |
+|---|---|---|---|---|---|---|---|---|---|---:|---|---|
+| Raw URL | Raw | Raw | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 22 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | Raw | Raw | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 33 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | Raw | Raw | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 36 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | Raw | Raw | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 84 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | URL | URL | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 22 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | URL | URL | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 33 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | URL | URL | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 36 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+| Raw URL | URL | URL | structural_trigger_candidate | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 84 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Raw/URL component row supports Raw URL anchor surface; keep as component evidence, not exact phrase. |
+
+## anchor guard
+
+These anchors are DB-derived and review-filtered evidence.
+
+These anchors do not finalize Raw URL.
+
+Raw/URL component evidence does not equal final definition of Raw URL.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
