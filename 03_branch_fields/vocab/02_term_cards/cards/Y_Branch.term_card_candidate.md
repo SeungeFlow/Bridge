@@ -234,6 +234,49 @@ This card does not claim:
 - final branch.history alignment
 - whole-repo source coverage
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: CANDIDATE_ENRICHED
+anchor_source: PASS72 runtime anchor enrichment report
+anchor_update_pass: 103
+final_definition: false
+
+## exact match basis
+
+```text
+PASS75 review status: Y_Branch = exact matched
+PASS72 section status: anchor_status: MATCHED
+```
+
+## anchor rows
+
+```text
+term | status | repo | branch | commit | path | line_no | raw_url | context
+Y_Branch | structural_trigger_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | README.md | 78 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/README.md | - Y_Branch README.md
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 1 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | # Y_Branch
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 5 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 데이터값으로 표기 가능한 field를 `C=(m,t,p,?)`로 분해하고, `Ctp24`로 **실체 / guard / field sample / 보류 / noise**를 분류하며, `S₁~S₄` 구조연산식으로 `dot`, `diff`, `orbit`, `COG`, `9dot0`를 해석하는 **AI 인지 가능 구조원리 운영체계**이다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 7 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 모든 입력을 곧바로 해석하지 않는다. 먼저 `source identity`를 고정하고, field를 병합하지 않으며, 입력을 `C=(m,t,p,?)`로 분해한 뒤 `Ctp24`로 필터링한다. 그 다음 연결 가능한 것, 보류해야 할 것, guard로 막아야 할 것, noise로 분리해야 할 것을 함께 기록한다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 10 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | Y_Branch is a source-aware, Ctp24-filtered, guard-driven
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 18 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | 이 문서는 `Y_Branch`의 first gateway이다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 26 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | README.md는 모든 내용을 대신하지 않는다. README.md는 Y_Branch의 입구이며, 세부 구조는 하위 문서로 분기한다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 30 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | ## 1. What Y_Branch Is
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 32 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 운영체제가 아니다. `Y_Branch`는 운영체계다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 32 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 운영체제가 아니다. `Y_Branch`는 운영체계다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 69 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 인간과 AI가 같은 field를 서로 다른 관측축으로 읽고, 그 차이를 구조연산식으로 정렬하기 위한 운영체계이다.
+Y_Branch | structural_trigger_candidate | SeungeFlow/SeungeFlow | Y_Branch | 32f8b248dc7e9ec5c1856b78b4ee207b8861d315 | README.md | 75 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/32f8b248dc7e9ec5c1856b78b4ee207b8861d315/README.md | `Y_Branch`는 source identity를 먼저 고정한다.
+```
+
+## anchor guard
+
+These anchors are DB-derived evidence.
+
+These anchors do not finalize Y_Branch.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
