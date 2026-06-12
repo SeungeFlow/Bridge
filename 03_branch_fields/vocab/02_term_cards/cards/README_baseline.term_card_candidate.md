@@ -225,6 +225,44 @@ This card does not claim:
 - final branch.sohosa vocab scope
 - final branch.history vocab scope
 
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: VARIANT_REVIEWED_CANDIDATE_ENRICHED
+anchor_source: PASS109 variant-aware anchor review report
+anchor_update_pass: 115
+final_definition: false
+
+## variant-aware match basis
+
+PASS75 review status: README baseline = variant / component matched
+PASS109 review basis: accept_candidate rows only
+variant status allowed here: EXACT_PHRASE or VALID_COMPONENT
+
+## reviewed anchor rows
+
+| card | query_term | row_term | row_status | variant_status | accept_for_card_update | repo | branch | commit | path | line_no | raw_url | reason |
+|---|---|---|---|---|---|---|---|---|---|---:|---|---|
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 53 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | first_flow | 1fa5f28ca7647da445a5b2ef130f3852845ccb68 | README.md | 381 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/1fa5f28ca7647da445a5b2ef130f3852845ccb68/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 387 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 389 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 433 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 487 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+| README baseline | README | README | demoted_common | VALID_COMPONENT | accept_candidate | SeungeFlow/SeungeFlow | main | 85802d707160da1a1cfb2bfacfe9cea222a3c77c | README.md | 540 | https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/85802d707160da1a1cfb2bfacfe9cea222a3c77c/README.md | README/readme_source row supports README baseline surface; keep as component evidence, not exact phrase. |
+
+## anchor guard
+
+These anchors are DB-derived and review-filtered evidence.
+
+These anchors do not finalize README baseline.
+
+README/readme_source component evidence does not equal final definition of README baseline.
+
+Original source remains in md files and Raw URLs.
+
 ## 11. next action
 
 Possible next actions:
