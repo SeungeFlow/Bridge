@@ -333,3 +333,43 @@ DB output is derived evidence.
 Original source remains in md files and Raw URLs.
 
 gpt.direct performs final structure alignment.
+
+
+## source anchors — PASS72 enrichment
+
+## status
+
+anchor_status: VARIANT_REVIEWED_CANDIDATE_ENRICHED
+anchor_source: PASS109 variant-aware anchor review report
+anchor_update_pass: 117
+final_definition: false
+
+## variant-aware match basis
+
+PASS75 review status: vocab.branch = requires review before card update
+PASS109 review basis: accept_candidate rows only
+variant status allowed here: EXACT_PHRASE or CONTEXTUAL_BRANCH_MATCH
+
+## reviewed anchor rows
+
+| card | query_term | row_term | row_status | variant_status | accept_for_card_update | repo | branch | commit | path | line_no | raw_url | reason |
+|---|---|---|---|---|---|---|---|---|---|---:|---|---|
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 1 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 6 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 11 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 12 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 16 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 40 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 60 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+| vocab.branch | vocab.branch | vocab.branch | structural_trigger_candidate | EXACT_PHRASE | accept_candidate | SeungeFlow/9Dot0 | main | 7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb | 03_branch_fields/vocab/README.md | 68 | https://raw.githubusercontent.com/SeungeFlow/9Dot0/7aba83cd9b3ae0461e9dafd7a38a63b509c8d8eb/03_branch_fields/vocab/README.md | vocab.branch exact row supports direct card update. |
+
+## anchor guard
+
+These anchors are DB-derived and review-filtered evidence.
+
+These anchors do not finalize vocab.branch.
+
+vocab/branch context evidence does not equal final definition of vocab.branch.
+
+Original source remains in md files and Raw URLs.
+
