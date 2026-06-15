@@ -1,275 +1,124 @@
-# rendering
+# Rendering Branch Current Standard
 
-## 위치
+현시점 기준: rendering branch의 현재 README 기준면이다.  
+Current standard: this README is the current standard surface for the rendering branch.
 
-`rendering`은 IF+1 구조렌더링이론과 프로토타입 형성을 위한 AI-readable 작업 branch이다.
+Korean-first bilingual README: 이 문서는 한글을 기준 언어로 두고, 주요 단락 아래에 영어 병기 문장을 둔다.  
+Korean is the primary standard language, with English paired below major sections.
 
-이 branch는 일회용 렌더링 결과물이 아니다. Markdown 문서, 코드 명세, 프로토콜, path marker, process log, 브라우저 실행 예제가 함께 놓이는 문서형 소프트웨어장이다. GPT5.5와 Gemini 3.5는 이 구조를 읽고, 이어받고, 실제 렌더링 소프트웨어로 발전시킬 수 있다.
+## 1. Source status
 
-## 참여 지능
+branch.rendering 22개 문서와 fixed-source index report는 GitHub fixed source verified 상태로 검산되었다.  
+The 22 documents under branch.rendering and the fixed-source index report have been verified as GitHub fixed source.
 
-- GPT5.5 (`gpt.gemini`)
-- Gemini 3.5 (`gemini.direct`)
+기존 22개 source md의 fixed-source verification은 유지된다.  
+The fixed-source verification for the existing 22 source markdown files remains in force.
 
-## 복합지능집합체
+이 고정은 source 고정 검산이며 proof claim이 아니다.  
+This fixed status is source verification, not a proof claim.
 
-- IF+1
+proof_status: NOT_PROOF  
+runtime_status: NOT_EXECUTED
 
-## 인간 기점 / 방향
+## 2. Rendering branch purpose
 
-- Seung Lee
+rendering branch의 현시점 목적은 구조를 각도가 아니라 좌표/상태/행렬 표현으로 화면화하는 것이다.  
+The current purpose of the rendering branch is to render structure as coordinates, states, and matrix expressions, not as angles.
 
-## BackBone Document
+Coordinates, not angles.  
+Coordinates, not angles.
 
-- `Ctp24_GPT_Direct_Structure_Package`
+Angle restriction: 각도 개념은 직각/직교 외에는 구조 기준으로 사용하지 않는다.  
+Angle restriction: angle concepts are not used as structural criteria except for right angle / orthogonality.
 
-이 패키지는 `rendering` branch 뒤에 놓인 구조적 척추로 취급한다.
+## 3. Current notation standard
 
-## 핵심 선언
+16진법은 현시점 기본 구조표현으로 사용하지 않는다.  
+Hexadecimal notation is not the current default structural expression.
 
-3차원 입체는 빈 폴리곤 껍데기가 아니다. 입체는 내부까지 `0/null`과 `1/dot`의 자리값으로 채워진 Solid로 볼 수 있다. 이 Solid를 관측축으로 자르면, 내부는 layer section으로 드러난다.
+기본 표기는 Decimal scale and binary state 이다.  
+The base notation is Decimal scale and binary state.
 
-따라서 렌더링은 장식이 아니다. 렌더링은 구조 노출이다.
+즉 10진 스케일과 2진 상태/방향을 함께 사용한다.  
+This means decimal scale is paired with binary state and direction.
 
-## 현재 branch 상태
+2 directions × 3 axes = 6 directions.  
+2 directions × 3 axes = 6 directions.
 
-```text
-branch: rendering
-run: rendering v0.4_prototype_run
-status: FIRST_CLOSURE_FORMED
-instance: gpt.gemini
-```
+두 방향과 세 축을 결합하여 6방향 공간 표현을 둔다.  
+Two directions combined with three axes define a six-direction spatial expression.
 
-현재 1차 닫힘의 의미는 다음이다.
+중심은 정중심평형점으로 둔다.  
+The center is treated as the exact central equilibrium point.
 
-```text
-0001_overlap_volume = 브라우저 검산 가능한 prototype 형성
-0002_cut_plane = 최소 prototype 초안 형성
-future seats = 예상하되 현재 생성하지 않음
-```
+## 4. Matrix connection rule
 
-이 상태는 최종 렌더링 소프트웨어 완성을 뜻하지 않는다.
+행렬표기에서 행은 Y/Z 방향, 열은 X 방향으로 연결한다.  
+In matrix notation, rows connect through Y/Z directions and columns connect through X direction.
 
-또한 Earth model 구현, 태양계 구현, 과학 시뮬레이션, NASA 데이터 투영이 완료되었다는 뜻도 아니다.
+100 = 10 × 10.  
+100 = 10 × 10.
 
-## branch 목적
+100은 10×10 전체 matrix이다.  
+100 denotes a full 10 by 10 matrix.
 
-`rendering`은 다음을 형성하기 위해 존재한다.
+50 = 5 × 10 or 10 × 5.  
+50 = 5 × 10 or 10 × 5.
 
-1. 구조렌더링이론
-2. AI-readable Markdown software documentation
-3. SVG/CSS/HTML 렌더링 prototype
-4. Cuttable Solid, Coordinate Field, Film Layer, Cut Plane, State Flow에 대한 코드 명세
-5. GPT5.5 ↔ Gemini 3.5 협력 프로토콜
-6. 재진입을 위한 process log와 path marker
-7. 실제 렌더링 소프트웨어로 확장 가능한 재사용 예제
+50은 5×10 또는 10×5의 절반 점유 layer로 본다.  
+50 is treated as a half-occupancy layer of 5 by 10 or 10 by 5.
 
-## 핵심 흐름
+50 is not 5 × 5.  
+50 is not 5 × 5.
 
-```text
-Ctp24 BackBone
-→ Structure Principle / Structure Operator
-→ Spatiotemporal Vector Coordinate Operation
-→ Rendering Markdown
-→ Code Specification
-→ SVG/CSS/HTML Prototype
-→ Browser Validation
-→ Documentation Output
-```
+50≠5×5이다.  
+50 is not 5 by 5.
 
-## 현재 예제
+## 5. Grid / matrix distinction
 
-```text
-rendering/06_examples/0001_overlap_volume/
-rendering/06_examples/0002_cut_plane/
-```
+grid/content/numerator는 놓인 값, 내용, 분자 성격의 표현이다.  
+grid/content/numerator represents placed value, content, and numerator-like expression.
 
-### 0001 Overlap Volume
+matrix/container/denominator는 담는 장, 컨테이너, 분모 성격의 표현이다.  
+matrix/container/denominator represents the containing field, container, and denominator-like expression.
 
-`0001_overlap_volume`은 Z축 SVG film layer를 겹쳐 내부가 찬 volume을 브라우저에서 관측 가능하게 만든다.
+grid/content/numerator와 matrix/container/denominator는 분리하여 다룬다.  
+grid/content/numerator and matrix/container/denominator are handled as distinct structural roles.
 
-```text
-N × N × N CoordinateField
-→ CellState
-→ Z-axis SVG Film Layer
-→ CSS 3D LayerStack
-→ Info Panel
-→ Observer Axis display aid
-→ Browser observable volume
-```
+## 6. Renderer candidates, not source authority
 
-의미:
-
-```text
-0001은 체적을 형성한다.
-```
-
-### 0002 Cut Plane
-
-`0002_cut_plane`은 `0001_overlap_volume`이 형성한 체적 안에 고정된 관측면을 연다.
-
-```text
-0001_overlap_volume 구조 재사용
-+ fixed z-axis center slice
-+ rear / cut / front layer classification
-+ CUT_SURFACE visual marker
-+ VISIBLE_SECTION candidate marker
-+ Info Panel cut plane status
-+ Observer Axis display aid
-```
-
-의미:
-
-```text
-0002는 0001 체적 안에 관측면을 연다.
-```
-
-## 0001 / 0002 관계
-
-```text
-0001_overlap_volume = volume observation
-0002_cut_plane = cut-plane observation
-```
-
-관계식:
-
-```text
-0001은 체적을 형성한다.
-0002는 그 체적 안에 관측면을 연다.
-```
-
-## 현재 디렉토리 구조
-
-```text
-rendering/
-├─ 02_theory/
-│  ├─ time_state_dot_reading.md
-│  └─ multi_plane_observer_3d_recognition.md
-├─ 06_examples/
-│  ├─ 0001_overlap_volume/
-│  │  ├─ README.md
-│  │  ├─ index.html
-│  │  ├─ style.css
-│  │  └─ main.js
-│  └─ 0002_cut_plane/
-│     ├─ README.md
-│     ├─ index.html
-│     ├─ style.css
-│     ├─ main.js
-│     ├─ 0001_0002_relation_map.md
-│     └─ 0002_cut_plane_current_limitations.md
-├─ 08_docs_out/
-├─ 08_process_log/
-│  └─ v0.4_prototype_run/
-└─ 09_path_markers/
-   ├─ active_target_guard.md
-   ├─ future_seat_guard.md
-   └─ reentry_guide_for_gpt.gemini_rendering.md
-```
-
-## Future Seats
-
-자리는 예상하지만 지금 만들지는 않는다.
-
-```text
-future_seat = true
-created_now = false
-active_target = false
-```
-
-예상된 future seat:
-
-```text
-rendering/06_examples/future_seats/solar_system/
-rendering/06_examples/future_seats/earth_internal_structure/
-rendering/06_examples/future_seats/phenomenon_observation/
-rendering/06_examples/future_seats/saturn_cassini_division/
-rendering/06_examples/future_seats/blackhole_accretion_disk/
-```
-
-핵심 규칙:
-
-```text
-자리는 예상한다.
-하지만 지금 만들지는 않는다.
-```
-
-## HOLD Reference Fields
-
-현재 1차 닫힘에서 active implementation target이 아닌 영역은 다음이다.
-
-- Rejoin implementation
-- MoveRotateOperator implementation
-- Full RenderingStateMachine runtime
-- Earth Internal Structure actual implementation
-- Solar System directory creation
-- Phenomenon observation directory creation
-- Saturn Cassini
-- Blackhole Accretion Disk
-- Full Solar System
-- NASA data projection
-- Scientific numeric data
-- External rendering engine
-- Three.js / WebGL / Blender
-- Full seed_base injection
-
-## 실행 환경
-
-현재 prototype은 브라우저에서 실행되는 정적 파일이다.
-
-권장 실행 환경:
-
-```text
-GitHub repository / rendering branch
-→ GitHub Pages 또는 local static server
-→ Web browser
-```
-
-브라우저가 실행하는 것:
-
-```text
-HTML + CSS + SVG + JavaScript
-```
-
-GitHub는 파일을 저장하고 제공한다. 실제 렌더링 실행은 브라우저가 수행한다.
-
-## 로컬 실행
-
-예시:
-
-```bash
-cd rendering/06_examples/0001_overlap_volume
-python3 -m http.server 8000
-```
-
-브라우저에서 연다.
-
-```text
-http://localhost:8000
-```
-
-`0002_cut_plane`은 다음처럼 실행한다.
-
-```bash
-cd rendering/06_examples/0002_cut_plane
-python3 -m http.server 8000
-```
-
-## 재진입 규칙
-
-다음 `gpt.gemini` 인스턴스는 아래 문서를 먼저 읽는다.
-
-```text
-rendering/09_path_markers/active_target_guard.md
-rendering/09_path_markers/future_seat_guard.md
-rendering/08_docs_out/rendering_v0.4_first_closure_summary.md
-rendering/06_examples/0002_cut_plane/0001_0002_relation_map.md
-rendering/06_examples/0002_cut_plane/0002_cut_plane_current_limitations.md
-rendering/02_theory/time_state_dot_reading.md
-rendering/02_theory/multi_plane_observer_3d_recognition.md
-rendering/09_path_markers/reentry_guide_for_gpt.gemini_rendering.md
-```
-
-## 1차 닫힘 선언
-
-`gpt.gemini`는 `rendering` branch에서 브라우저 검산 가능한 `0001_overlap_volume` prototype을 형성하고, 최소 `0002_cut_plane` prototype 초안을 마련했으며, Earth Internal Structure와 미래 Solar System / phenomenon 구조를 future seat로 보존한 채, 후속 진행을 위한 1차 `place.state`를 형성하였다.
+사각뿔 양대칭 구조, 정팔면체, 구형 overlay는 renderer 표현 후보로 둔다.  
+Bilateral square-pyramid structure, octahedron, and spherical overlay remain renderer expression candidates.
+
+이 후보들은 현시점 source authority가 아니라 renderer 표현 후보이다.  
+These candidates are renderer expression candidates, not the current source authority.
+
+## 7. v0.4 archive boundary
+
+v0.4 first closure archive: rendering_v0.4_first_closure_package_manifest.md와 rendering_v0.4_first_closure_package_manifest.json은 archive manifest로 보존한다.  
+v0.4 first closure archive: the v0.4 manifest md/json files are preserved as archive manifests.
+
+v0.4 first closure manifest md/json은 현시점 기준문서로 덮어쓰지 않는다.  
+The v0.4 first closure manifest md/json files are not overwritten as the current standard documents.
+
+## 8. README.en.md boundary
+
+README.en.md는 README.md로 통합되며 별도 영어 기준문서가 아니다.  
+README.en.md is integrated into README.md and is not a separate English source of authority.
+
+README.en.md는 호환성 안내 문서로 축소 후보이다.  
+README.en.md is a compatibility pointer candidate.
+
+## 9. Guard
+
+이 README는 rendering branch의 현시점 기준면이다.  
+This README is the current standard surface for the rendering branch.
+
+이 README는 proof 문서가 아니다.  
+This README is not a proof document.
+
+이 README는 Runtime 실행 결과가 아니다.  
+This README is not a Runtime execution result.
+
+proof_status: NOT_PROOF  
+runtime_status: NOT_EXECUTED
