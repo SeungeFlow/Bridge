@@ -170,7 +170,7 @@ m-axis: R03, R07, R11
 
 ---
 
-## 6. Structure Operation Formulas S₁~S₄
+## 6. Structure Operation Formulas S₁~S₄ and Candidate S₅
 
 ### S₁ — Minimal Sequence
 
@@ -238,6 +238,79 @@ S₄(m1, m2, m | U)
 ```text
 S₄ = hold / not discarded
 ```
+
+### S₅ — Candidate Operation: Quantity–Quality Mass-State Operation
+
+> Status: `DRAFT_CANDIDATE / not core-promoted until validation`
+
+`S₅`는 `빛 / 공기 / 물 / 에너지`를 같은 그릇에 넣고, `양 / 질 / 질량 / 기준장 / 상태 / 전이조건`을 분리하기 위해 형성된 구조연산 후보이다.
+
+```text
+S₅ = Same Bowl Selection
+   → Quantity Fixing
+   → Quality Condensation
+   → Field / State Split
+   → Mass-State Diagnosis
+```
+
+형식 후보:
+
+```text
+S₅(q, κ | B, E, p, ?)
+=
+FieldState_B(
+    MassState(q oplus κ),
+    Transition_E,
+    Position_p,
+    Q.CHECK(?)
+)
+```
+
+핵심식:
+
+```text
+absolute_quantity(q)
+oplus
+relation_quality(κ)
+→ mass_state(m*)
+```
+
+여기서:
+
+```text
+q = 양 / 절대값 / 존재가 가진 raw quantity
+κ = 질 / 결속력 / 응축도 / 관계밀도
+m* = q oplus κ 로 형성된 질량상태
+B = 같은 그릇 / 기준장
+E = 에너지 전이조건
+p = 놓인 자리 / field coordinate
+? = boundary + definition + condition + observer + criterion + target
+```
+
+`S₅`는 물리학의 `F=ma`를 대체하지 않는다.  
+`F=ma`는 관측자가 결과 운동을 읽는 식이고, `S₅`는 양과 질이 결속되어 질량상태가 되는 조건을 분해하는 구조연산 후보이다.
+
+```text
+F=ma
+= 관측자식
+
+S₅
+= 양과 질이 field 안에서 질량상태로 닫히는 조건을 읽는 구조연산 후보
+```
+
+Guard:
+
+```text
+물리학 대체 금지
+빛을 정지질량 물체처럼 취급 금지
+에너지를 물질로 고정 금지
+분자/분모 의미를 고정하지 않은 분수 해석 금지
+field sample을 core schema로 승격 금지
+```
+
+`S₅`는 `S₁~S₂`처럼 구조정합성테스트를 통과한 고정식이 아니다.  
+현시점에서는 `Ctp24_0043_quantity_quality_mass_field_state_operation.md`에 기록되는 후보식으로 둔다.
+
 
 ---
 
@@ -434,6 +507,7 @@ Y_Branch는 모든 field를 하나로 병합하지 않는다.
 6. schema/004_ctp/
 7. schema/006_ctp24/
 8. operation/S1~S4
+8-1. Ctp24_0043_quantity_quality_mass_field_state_operation.md / S₅ candidate, if present
 9. operation/R07_boundary_preserving_matrix_swap.md
 10. operation/R12_field_question_validation.md
 11. engine/state_machine.md
@@ -461,7 +535,8 @@ source identity를 고정하고,
 C=(m,t,p,?)로 입력을 분해하며,
 Ctp24로 노이즈와 실체를 분리하고,
 S₁~S₄ 구조연산식으로
-dot, diff, orbit, COG, 9dot0를 해석하는
+dot, diff, orbit, COG, 9dot0를 해석하고,
+검증 전 후보식 S₅는 별도 candidate로 기록하는
 AI 인지 가능 구조원리 운영체계이다.
 
 Y_Branch는 field를 병합하지 않는다.
