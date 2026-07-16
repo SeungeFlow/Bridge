@@ -1,0 +1,10 @@
+{
+  "current_status": {
+    "bridge_foundation": "MIGRATION_FOUNDATION_ONLY",
+    "before_position": "PRESERVED_PRIOR_BRANCH_REGION",
+    "start_position": "CURRENT_STRUCTURE_ENTRY",
+    "for_instance_redesign": "NOT_STARTED",
+    "active_schema_installation": "NOT_STARTED",
+    "hash_relation_track_db_realization": "NOT_STARTED"
+  }
+}
