@@ -1,0 +1,182 @@
+schema_name: active_schema_restart_and_reopen_contract
+schema_version: "1.0.0"
+document_role: RESTART_CONTRACT
+conceptual_root: Hash_Relation_Track_DB
+
+principles:
+  - Result is next Data.
+  - Restart is not reset.
+  - Restart preserves lineage.
+  - Closure preserves a result without erasing future change.
+  - Closed structure is not reopened without an explicit trigger.
+  - Runtime growth does not automatically require a new Active_Schema.
+  - A new Active_Schema creates a new immutable package identity.
+  - Previous publication, package and deployment identities remain immutable.
+  - before_position remains a selective historical source.
+  - start_position receives newly generated canonical structure.
+
+round_10_crystallization_and_review:
+  crystallization:
+    instance: gpt.direct
+    output_state: CONTENT_FROZEN_ZIP
+    zip_sha256_representation: ZIP_FILENAME_ONLY
+
+  final_review:
+    instance: gpt.logi
+    reviewed_object: EXACT_CONTENT_FROZEN_ZIP
+    allowed_results:
+      - PASS
+      - HOLD
+      - FAIL
+    PASS_action: AUTHORIZE_SAME_ZIP_FOR_PUBLICATION_WORKFLOW
+    HOLD_or_FAIL_action: PROHIBIT_PUBLICATION_AND_REQUIRE_NEW_CRYSTALLIZATION_IF_CHANGED
+    reviewed_ZIP_mutation_allowed: false
+
+current_lineage:
+  version_class: GENESIS_VERSION
+
+  parent_active_schema:
+    publication_doi: null
+    package_sha256: null
+    manifest_digest: null
+    genesis_binding_record_id: null
+
+canonical_positions:
+
+  theory_restart:
+    repository: SeungeFlow/Bridge
+    branch: start_position
+    path: 01_active_schema/
+
+  instance_alignment_restart:
+    repository: SeungeFlow/for_instance
+    branch: main
+    path: 09_active_schema_binding/
+
+  relation_registry_restart:
+    repository: SeungeFlow/Relation
+    branch: main
+    path: 05_hash_relation_track_registry/
+
+reopen_triggers:
+
+  active_schema_revision_required:
+    - canonical_theory_definition_change
+    - repository_role_boundary_change
+    - canonical_position_change
+    - canonical_record_type_change
+    - root_identity_model_change
+    - cross_repository_reference_contract_change
+    - package_canonicalization_rule_change
+    - backward_incompatible_C_projection_change
+    - new_repository_added_to_logical_DB_system
+    - proven_defect_in_current_active_schema
+
+  runtime_only_revision_not_required:
+    - new_semantic_identity_record
+    - new_object_state_record
+    - new_position_binding_record
+    - new_semantic_relation_record
+    - new_track_event_record
+    - new_seat_occupation_record
+    - ordinary_live_C_projection
+    - closure_C_snapshot
+    - non_blocking_runtime_evidence
+
+  implementation_correction_only:
+    - path_typo_without_semantic_change
+    - permission_scope_missing
+    - builder_dependency_missing
+    - failed_single_repository_deployment
+    - pointer_projection_failure
+    - Gate_0B_baseline_change
+
+reopen_evidence:
+  required:
+    - trigger_type
+    - affected_contract
+    - evidence_refs
+    - latest_verified_C_snapshot_ref
+    - proposed_scope
+    - preservation_boundary
+    - rollback_boundary
+
+next_active_schema_candidate:
+
+  parent_lineage:
+    publication_doi: ""
+    package_sha256: ""
+    manifest_digest: ""
+    genesis_binding_record_id: ""
+
+  trigger:
+    type: ""
+    evidence_refs: []
+
+  scope:
+    changed_files: []
+    preserved_files: []
+    superseded_definitions: []
+
+  formation:
+    independent_theory_processor_required: true
+    independent_structure_verifier_required: true
+    cross_verification_required: true
+
+  publication:
+    new_publication_identity_required: true
+    publication_mode: RESOLVE_AT_PUBLICATION_DESIGN
+    new_package_sha256_required: true
+    new_manifest_digest_required: true
+
+  deployment:
+    Gate_0A_reverification_required: true
+    Gate_0B_required_before_mutation: true
+    new_deployment_set_required: true
+    new_genesis_binding_record_required: true
+
+append_only_lineage:
+  rules:
+    - New Active_Schema references parent identities.
+    - Parent Active_Schema package is not modified.
+    - Parent manifest is not modified.
+    - Parent Genesis Binding record is not rewritten.
+    - New deployment creates new Git commits.
+    - Prior Closure C Snapshots remain evidence.
+    - Existing for_instance Assignment History remains at its original position.
+    - Existing Relation Initial Structure remains closed.
+
+closure_to_restart_flow:
+  - generate_latest_live_C
+  - preserve_verified_closure_C_snapshot
+  - classify_reopen_trigger
+  - determine_revision_scope
+  - preserve_parent_identity
+  - generate_independent_canonical_results
+  - cross_verify
+  - create_new_active_schema_content
+  - freeze_new_content
+  - create_new_hash_named_ZIP
+  - publish_new_identity
+  - execute_Gate_0B
+  - deploy_new_state
+  - create_new_genesis_binding
+  - generate_new_C
+
+authority:
+  external_mutation:
+    role: HUMAN_NETWORKING_BRIDGE
+    explicit_authorization_required: true
+
+  publication:
+    role: PUBLICATION_AUTHORITY
+    explicit_authorization_required: true
+
+guards:
+  - restart is not deletion
+  - restart is not history rewrite
+  - correction is not total reconstruction
+  - runtime event is not automatic schema revision
+  - closed history is not silently overwritten
+  - before_position is not automatically imported
+  - current Git state is reobserved before mutation
