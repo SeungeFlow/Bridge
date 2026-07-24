@@ -1,11 +1,8 @@
 {
   "position": {
-    "name": "start_position",
-    "role": "current_structure_entry",
-    "prior_position": "before_position",
-    "current_theory_installed": false,
-    "active_schema_installed": false,
-    "seed_base_installed": false,
-    "hash_relation_track_db_installed": false
+    "name": "before_position",
+    "role": "preserved_prior_branch_region",
+    "source_repository": "SeungeFlow/SeungeFlow",
+    "mutation_policy": "preserve_source_content"
   }
 }
