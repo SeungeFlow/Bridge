@@ -2,7 +2,7 @@
   "schema_name": "gpt_think_candidate_method_catalog",
   "schema_version": "1.0.0-publication",
   "round": "CURRENT_FORMED_STATE",
-  "candidate_count": 55,
+  "candidate_count": 56,
   "permanent_starter": false,
   "default_status": "STANDBY_CANDIDATE",
   "selection_deferred_to": "04_method_field/REALITY_ABSTRACTION_MODE_SELECTOR.md",
@@ -2801,6 +2801,83 @@
       ],
       "status": "STANDBY_CANDIDATE",
       "current_lineup_role": "NONE_UNTIL_DATA_PROFILE"
+    },
+    {
+      "id": "CAND-093",
+      "name": "AI.Style Language-Friendly Structured Programming",
+      "ko": "AI.Style 언어친화적 구조화 프로그래밍",
+      "object_binding": {
+        "object_identity": "6340e55b5840259aa49d4deed58c17d96f6d8eb0eea9c2b8be1aced330dce9a7.C.md",
+        "path": "06_methodology/6340e55b5840259aa49d4deed58c17d96f6d8eb0eea9c2b8be1aced330dce9a7.C.md",
+        "sha256": "6340e55b5840259aa49d4deed58c17d96f6d8eb0eea9c2b8be1aced330dce9a7",
+        "control_instance": "gpt.think"
+      },
+      "purpose": "자연언어 구조문서를 목적·Identity·경계·상태·관계·검산·복구가 결속된 상위 Program Source로 사용하고 필요한 실행형을 코드·설정·문서·데이터·Git 변경·도구행동으로 파생한다.",
+      "applicable": [
+        "AI와 함께 자연언어에서 구현계획·코드·문서·데이터를 형성하는 작업",
+        "Repository 변경의 허용·금지·검산·복구경계를 먼저 고정해야 하는 작업",
+        "Prompt보다 강한 Structured Program Object가 필요한 작업"
+      ],
+      "signals": [
+        "목적·경계·완료조건 없이 코드 생성부터 시작",
+        "자연언어 구조문서와 실행 Artifact를 동일시",
+        "코드 생성만으로 Purpose 달성 또는 Closure를 주장"
+      ],
+      "process": [
+        "Source Language 판독",
+        "Structural Parse",
+        "Identity·Definition Binding",
+        "Ambiguity·Conflict Detection",
+        "Method Candidate Selection",
+        "Execution Plan 형성",
+        "Artifact Generation",
+        "Validation·Evidence Binding",
+        "State Rebind"
+      ],
+      "output": "AI가 구현·검산 가능한 Structured Program Object와 Purpose·Source에 역추적되는 실행형",
+      "validators": [
+        "relation is not merge",
+        "target is not confined by method",
+        "code generation alone is not completion",
+        "result remains reverse-traceable to purpose and source"
+      ],
+      "strengths": [
+        "사람의 목적·가치·경계를 실행계약의 상위 Source로 보존",
+        "실행 전 모호성·충돌·HOLD·Recovery 조건 외부화",
+        "코드·문서·데이터·Git 변경을 같은 구조계약에서 파생"
+      ],
+      "limits": [
+        "단순 Prompt 또는 장문은 Structured Program Object가 아님",
+        "정확한 계산·성능·프로토콜·하드웨어 제어에는 실행코드가 계속 필요",
+        "Schema는 Target을 가두는 절대형이 아님"
+      ],
+      "compatible": [
+        "CAND-003",
+        "CAND-021",
+        "CAND-024",
+        "CAND-031",
+        "CAND-042",
+        "CAND-090",
+        "CAND-091"
+      ],
+      "substitute": [
+        "Identity·Schema 부팅만 필요하면 CAND-090",
+        "실제 Operation과 Representation 분리가 핵심이면 CAND-091"
+      ],
+      "formation": [
+        "DIRECTIVE-68256cff75a2796dcda25051344104cde0d1cdd52f0700df198c0a39988f33bf",
+        "OBJECT-6340e55b5840259aa49d4deed58c17d96f6d8eb0eea9c2b8be1aced330dce9a7"
+      ],
+      "required_conditions": [
+        "target identity is declared",
+        "purpose and boundaries are explicit",
+        "allowed and forbidden changes are separated",
+        "validation and recovery states are declared",
+        "execution route and approval gate are bounded"
+      ],
+      "status": "STANDBY_CANDIDATE",
+      "current_lineup_role": "NONE_UNTIL_DATA_PROFILE",
+      "conflicts": []
     }
   ]
 }
