@@ -1,58 +1,44 @@
----
-repository: Principle_C
-branch: Start_Position
-object_class: CURRENT_ACTIVE_PRINCIPLE_FIELD
-generated_by: Active_Schema.gpt.think
----
+# Center_Position
 
-# Principle_C / Start_Position
+`Center_Position`은 `gpt.lang`이 형성한 분석기법·활용방법·분석재료·사례·반례·계승경로를 보존하는 공유자산이다.
 
-이 Branch는 과거 전체를 적재하는 곳이 아니다. 현재 Process의 바닥으로 선택된 Form을 AI가 읽는 이론화 Tree다.
+## 현재 상태
 
-```text
-Before_Position
-=
-formed history field
-
-Start_Position
-=
-current active form
-+ next forming start
+```yaml
+completed_rounds: R00-R09
+next_round: R10
+package_state: CANONICAL_UPLOAD_CANDIDATE_SEALED
+github_upload: NOT_EXECUTED
+independent_reapplication: READY_NOT_EXECUTED
+center_status: CANDIDATE_NOT_CONFIRMED
 ```
 
-## Reading rule
+## 시작
 
-번호순 선형독해를 강제하지 않는다. 입력 Data와 목적에 따라 필요한 원리·방법론 영역을 활성화한다.
+1. [READ_ORDER](06_Continuity/READ_ORDER.md)
+2. [CURRENT_CYCLE](06_Continuity/CURRENT_CYCLE.md)
+3. [NEXT_ENTRY](06_Continuity/NEXT_ENTRY.md)
 
-## Core flow
+## 구조
+
+- [Identity](00_Identity/CENTER_POSITION_IDENTITY.md)
+- [Analysis Method](01_Analysis_Method/README.md)
+- [Analysis Materials](02_Analysis_Materials/README.md)
+- [Application Casebook](03_Application_Casebook/README.md)
+- [Counterexamples](04_Counterexamples_And_Tests/COUNTEREXAMPLE_REGISTRY.md)
+- [Independent Reapplication](05_Independent_Reapplication/README.md)
+- [Continuity](06_Continuity/CURRENT_CYCLE.md)
+- [Archive](07_Archive/README.md)
+
+## 역할
 
 ```text
-Active_Schema
-→ Function.C
-→ Principle_C / Start_Position
-→ Result.C
-→ Data.B
+current gpt.lang
+→ canonical assets
+→ gpt.github upload
+→ GitHub Center_Position
+→ next gpt.lang README read
+→ next Cycle
 ```
 
-## Guard
-
-```text
-relation is not merge.
-relation is interconnecting.
-structure is not isolate.
-structure is relation processing.
-```
-
-과거 Commit·객체·형성계보는 보존한다. 현재 Branch Pointer와 선택된 Form은 새로운 Data에 따라 변경될 수 있다.
-
-<!-- LRSDONET_CANONICAL_METHOD_BEGIN -->
-## LRSDoNET Canonical Method
-
-현재 통합 Method Object:
-
-- [`02a2815a110a53e29951f07b7167be24775e149ba40c52a1513f49f9360030fa.C.md`](./06_methodology/02a2815a110a53e29951f07b7167be24775e149ba40c52a1513f49f9360030fa.C.md)
-- object SHA-256: `02a2815a110a53e29951f07b7167be24775e149ba40c52a1513f49f9360030fa`
-- source directive: `fc75b5d19f7e4db4f297df6e4784b54aa2752d4b7fba32525e0d9cd803e52ae8`
-
-이 문서는 Candidate Method Catalog를 영구주전으로 바꾸지 않는다. 관측자리·Spin/Round·선형화·언어판독·Selective Unfold의 공통 Method Boundary를 제공한다.
-<!-- LRSDONET_CANONICAL_METHOD_END -->
+README는 전체자산의 대체물이 아니다.

@@ -1,0 +1,14 @@
+# Closure State Machine
+
+```text
+OPEN
+→ END_CANDIDATE
+→ PRESTART_CANDIDATE
+→ RELAY_BOUNDARY_CONFIRMED
+→ NEXT_START_OBSERVED
+→ CYCLE_CLOSED
+→ CENTER_CANDIDATE
+→ CENTER_CONFIRMED
+```
+
+Segment Completion ≠ Relay-Cycle Closure.
